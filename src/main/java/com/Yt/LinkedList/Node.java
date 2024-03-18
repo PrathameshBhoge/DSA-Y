@@ -1,2 +1,15 @@
-package main.java.com.Yt.LinkedList;public class Node {
+package main.java.com.Yt.LinkedList;
+
+class Node {
+    int data;
+    Node next;
+
+    public Node(int data, Node next) {
+        this.data = data;
+        this.next = next;
+    }
+
+    public Node(int data) {
+        this.data = data;
+    }
 }
